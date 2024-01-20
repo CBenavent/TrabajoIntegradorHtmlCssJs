@@ -1,0 +1,226 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin:0;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+border: 0;
+}
+
+body{
+    background-color: #181D31;
+}
+
+.barraNav{
+height: 84px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 25px;
+}
+
+button{
+    border-radius:10px;
+    box-shadow: 2px 3px #678983;
+}
+
+.navBut{
+    padding:10px;
+    background-color: #E6DDC4;    
+    height: 35px;
+    margin-right: 40px;
+}
+
+.titulos{
+    font-size: 40px;
+    color:#EEEEEE;
+    text-shadow: 1px 1px #000000;
+}
+
+.tituloPrinc{
+    font-size:56px;
+    box-shadow: grey;
+    background-image: url(./assets/imagenes/codigo.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 500px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subtitulos{
+    color:#678983;
+    text-align: center;
+}
+
+.secTarjetas, footer{
+    display:flex;
+}
+
+.secTarjetas{
+    justify-content: space-evenly;
+    gap: 30px; 
+}
+
+.tarjetas{
+    width: 370px;
+    height: 425px;
+    background-color: #E6DDC4;
+    border: 5px solid #678983;
+    margin: 200px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgCard{
+    width: 100%;
+}
+
+.cardsTxt{
+    background-color: #E6DDC4;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.botonesCard{
+    color: #EEEEEE;
+    background-color: #181D31;
+    width: 150px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #678983;  
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#logoF{
+height: 80px;
+margin-left: 40px;
+}
+
+#boldTxt{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footerTxt{
+    color: #181D31;
+    margin:50px;
+}
+
+#pFooter{
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.txtHist{
+  color: #E6DDC4;  
+}
+
+.hist{
+    display:flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+}
+
+.margHist{
+    margin:50px;
+}
+
+.videoSec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.vidCont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 80px 80px;
+    width: 900px;
+    border: solid #000000 5px;
+    background-color: #000000;     
+}
+.video{
+   width: 100%;
+}
+
+.barRep{
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-radius:10px;
+    width: 100%;
+}
+
+.vidBut{
+border: 2px solid #000000;
+padding: 20px;
+width: 90px;
+}
+
+.secRomp{
+    display: flex;
+    justify-content: center;
+}
+
+.rompecabezasCont{
+    width: 750px;
+    height: 400px; 
+    display: flex;
+    border: 2px solid #000000;
+}
+
+.rompRecuadro{
+    width: 33%;
+    height: 100%;
+    background-color: grey;
+    border: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E6DDC4;
+}
+.tamañoromp{
+    width: 250px;
+    height: 400px; 
+}
+
+.sec{
+    margin:80px;
+}
+
+.imgRompe{
+    margin: 5px;
+}
+
+#rompBut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 120px;
+}
+
+button:active{
+    box-shadow: 0px 0px #678983;
+    transform: translate(2px, 2px);
+}
+
+
+.rompRecuadro:hover{
+    background-color: #1a1a1a; 
+}
