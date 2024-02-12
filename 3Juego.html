@@ -7,19 +7,30 @@
     <title>Proyecto Final - Benavent,C.</title>
 </head>
 <body>
+    <noscript>
+        Este sitio utiliza JavaScript si aparece este mensaje en su navegador habilitelo para su correcto funcionamiento
+    </noscript>
     <header>
         <nav>
             <div class="barraNav">
-             <button class="navBut">HISTORIA</button>
-             <button class="navBut">JUGUEMOS</button>
+                <a class="flex" href="./index.html">
+                    <svg class="lienzo">
+                        <rect class="mov1" x="15" y="5" width="60px" height="35px" fill="#F0E9D2" strokewidth="0" rx="5"></rect>
+                        <rect class="mov2" x="20" y="10" width="50px" height="25px" fill="#495579" strokewidth="0" rx="5"></rect>
+                        <polygon class="mov1" points= "23 45,67 45,87 63, 2 63" fill="#F0E9D2" strokewidth="0"></polygon>
+                        <polygon class="mov2" points= "26 48,64 48,77 59, 12 59" fill="#495579" strokewidth="0"></polygon>
+                    </svg>
+                </a>
+            <a class="navBut anim" href="./2Historia.html">HISTORIA</a>
+            <a Class="navBut anim" href="./3Juego.html">JUGUEMOS</a>
             </div> 
         </nav>
         <div >
-            <h1 class="titulos tituloPrinc">JUGUEMOS UN POCO</h1>
+            <h1 class="titulos tituloPrinc alinearTxt">JUGUEMOS UN POCO</h1>
         </div>            
     </header>
     <section class="sec">           
-        <h2 class="titulos subtitulos">Armemos el rompecabezas y veamos qué imagen es...</h2>
+        <h2 class="titulos subtitulos alinearTxt">Armemos el rompecabezas y veamos qué imagen es...</h2>
         <div class="secRomp"> 
         <div class="rompecabezasCont">
             <div class="rompRecuadro tamañoromp">Arrastre y suelte la imagen aquí</div>
@@ -34,13 +45,13 @@
             <img class="imgRompe tamañoromp" src="./assets/imagenes/Rompe2.png">
             <img class="imgRompe tamañoromp" src="./assets/imagenes/Rompe1.png">
         </div>
-        <button class="navBut vidBut" id="rompBut">Reiniciar</button>    
+        <a src="./3Juego.html" class="navBut vidBut anim" id="rompBut">Reiniciar</a>    
     </section>    
     
     </section>
     <footer class="footer">
           <img id="logoF" src="./assets/imagenes/logo.png">
-          <p id="boldTxt" class="footerTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
+          <p id="boldTxt" class="footerTxt alinearTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
           <p class="footerTxt" id="pFooter">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
         </div>
     </footer>    

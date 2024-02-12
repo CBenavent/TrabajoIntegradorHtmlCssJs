@@ -7,35 +7,47 @@
     <title>Proyecto Final - Benavent,C.</title>
 </head>
 <body>
+    <noscript>
+        Este sitio utiliza JavaScript si aparece este mensaje en su navegador habilitelo para su correcto funcionamiento
+    </noscript>
     <header>
         <nav>
+
             <div class="barraNav">
-             <button class="navBut">HISTORIA</button>
-             <button class="navBut">JUGUEMOS</button>
+                <a class="flex" href="./index.html">
+                    <svg class="lienzo">
+                        <rect class="mov1" x="15" y="5" width="60px" height="35px" fill="#F0E9D2" strokewidth="0" rx="5"></rect>
+                        <rect class="mov2" x="20" y="10" width="50px" height="25px" fill="#495579" strokewidth="0" rx="5"></rect>
+                        <polygon class="mov1" points= "23 45,67 45,87 63, 2 63" fill="#F0E9D2" strokewidth="0"></polygon>
+                        <polygon class="mov2" points= "26 48,64 48,77 59, 12 59" fill="#495579" strokewidth="0"></polygon>
+                    </svg>
+                </a>
+            <a class="navBut anim" href="./2Historia.html">HISTORIA</a>
+            <a Class="navBut anim" href="./3Juego.html">JUGUEMOS</a>
             </div> 
         </nav>
         <div >
-            <h1 class="titulos tituloPrinc">PROGRAMACIÓN E HISTORIA</h1>
+            <h1 class="titulos tituloPrinc alinearTxt">PROGRAMACIÓN E HISTORIA</h1>
         </div>    
     </header>
     <section>    
-        <h2 class="titulos subtitulos margHist">CONTENIDO</h2>
+        <h2 class="titulos subtitulos margHist alinearTxt">CONTENIDO</h2>
     </section>
     <section class="secTarjetas">
-        <div class="tarjetas">
+        <div class="tarjetas alinearFlexC">
             <img class="imgCard" src="./assets/imagenes/img1.jpg" alt="descripción(pendiente)">
-            <p class="cardsTxt">Conozcamos un poco sobre la historia de la programacion</p>
-            <button class="botonesCard">Ir a historia</button>
+            <p class="cardsTxt alinearTxt">Conozcamos un poco sobre la historia de la programacion</p>
+            <a href="./2Historia.html" class="botonesCard anim">Ir a historia</a>
         </div>
-        <div class="tarjetas">
+        <div class="tarjetas alinearFlexC">
             <img class="imgCard" src="./assets/imagenes/img2.jpg" alt="descripción(pendiente)">
-            <p class="cardsTxt">Juguemos un poco sobre la computacion</p>
-            <button class="botonesCard">Ir a juego</button>
+            <p class="cardsTxt alinearTxt">Juguemos un poco sobre la computacion</p>
+            <a href="./3Juego.html" class="botonesCard anim">Ir a juego</a>
         </div>
     </section>
     <footer class="footer">
           <img id="logoF" src="./assets/imagenes/logo.png">
-          <p id="boldTxt" class="footerTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
+          <p id="boldTxt" class="footerTxt alinearTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
           <p class="footerTxt" id="pFooter">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
         </div>
     </footer>    
