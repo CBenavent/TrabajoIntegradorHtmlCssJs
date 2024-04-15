@@ -13,8 +13,8 @@
     <header>
         <nav>
 
-            <div class="barraNav">
-                <a class="flex" href="./index.html">
+            <div class="barraNav displayFlex centrarFlex">
+                <a class="alignSelf" href="./index.html">
                     <svg class="lienzo">
                         <rect class="mov1" x="15" y="5" width="60px" height="35px" fill="#F0E9D2" strokewidth="0" rx="5"></rect>
                         <rect class="mov2" x="20" y="10" width="50px" height="25px" fill="#495579" strokewidth="0" rx="5"></rect>
@@ -22,8 +22,8 @@
                         <polygon class="mov2" points= "26 48,64 48,77 59, 12 59" fill="#495579" strokewidth="0"></polygon>
                     </svg>
                 </a>
-            <a class="navBut anim" href="./2Historia.html">HISTORIA</a>
-            <a Class="navBut anim" href="./3Juego.html">JUGUEMOS</a>
+            <a class="botonesborde navBut anim centrarFlex fondoAmarillo" href="./2Historia.html">HISTORIA</a>
+            <a Class="botonesborde navBut anim centrarFlex fondoAmarillo" href="./3Juego.html">JUGUEMOS</a>
             </div> 
         </nav>
         <div >
@@ -33,19 +33,19 @@
     <section>    
         <h2 class="titulos subtitulos margHist alinearTxt">CONTENIDO</h2>
     </section>
-    <section class="secTarjetas">
-        <div class="tarjetas alinearFlexC">
+    <section class="secTarjetas displayFlex">
+        <div class="tarjetas displayFlex flexColumn centrarFlex fondoAmarillo">
             <img class="imgCard" src="./assets/imagenes/img1.jpg" alt="descripción(pendiente)">
             <p class="cardsTxt alinearTxt">Conozcamos un poco sobre la historia de la programacion</p>
-            <a href="./2Historia.html" class="botonesCard anim">Ir a historia</a>
+            <a href="./2Historia.html" id="boton2" class="botonesborde botonesCard anim displayFlex centrarFlex">Ir a historia</a>
         </div>
-        <div class="tarjetas alinearFlexC">
+        <div class="tarjetas displayFlex flexColumn centrarFlex fondoAmarillo">
             <img class="imgCard" src="./assets/imagenes/img2.jpg" alt="descripción(pendiente)">
             <p class="cardsTxt alinearTxt">Juguemos un poco sobre la computacion</p>
-            <a href="./3Juego.html" class="botonesCard anim">Ir a juego</a>
+            <a href="./3Juego.html" id="boton1" class="botonesborde botonesCard anim displayFlex centrarFlex">Ir a juego</a>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer displayFlex centrarFlex">
           <img id="logoF" src="./assets/imagenes/logo.png">
           <p id="boldTxt" class="footerTxt alinearTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
           <p class="footerTxt" id="pFooter">Sitio con fines educativos - Creado por M.Victoria Lopez</p>

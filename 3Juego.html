@@ -12,8 +12,8 @@
     </noscript>
     <header>
         <nav>
-            <div class="barraNav">
-                <a class="flex" href="./index.html">
+            <div class="barraNav displayFlex centrarFlex">
+                <a class="alignSelf" href="./index.html">
                     <svg class="lienzo">
                         <rect class="mov1" x="15" y="5" width="60px" height="35px" fill="#F0E9D2" strokewidth="0" rx="5"></rect>
                         <rect class="mov2" x="20" y="10" width="50px" height="25px" fill="#495579" strokewidth="0" rx="5"></rect>
@@ -21,8 +21,8 @@
                         <polygon class="mov2" points= "26 48,64 48,77 59, 12 59" fill="#495579" strokewidth="0"></polygon>
                     </svg>
                 </a>
-            <a class="navBut anim" href="./2Historia.html">HISTORIA</a>
-            <a Class="navBut anim" href="./3Juego.html">JUGUEMOS</a>
+            <a class="botonesborde navBut anim displayFlex centrarFlex fondoAmarillo" href="./2Historia.html">HISTORIA</a>
+            <a Class="botonesborde navBut anim displayFlex centrarFlex fondoAmarillo" href="./3Juego.html">JUGUEMOS</a>
             </div> 
         </nav>
         <div >
@@ -31,25 +31,25 @@
     </header>
     <section class="sec">           
         <h2 class="titulos subtitulos alinearTxt">Armemos el rompecabezas y veamos qué imagen es...</h2>
-        <div class="secRomp"> 
-        <div class="rompecabezasCont">
-            <div class="rompRecuadro tamañoromp" id="zona1"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
-            <div class="rompRecuadro tamañoromp" id="zona2"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
-            <div class="rompRecuadro tamañoromp" id="zona3"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
+        <div class="displayFlex centrarFlex"> 
+        <div class="rompecabezasCont displayFlex bordesNegros">
+            <div class="rompRecuadro tamañoromp displayFlex centrarFlex bordesNegros" id="zona1"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
+            <div class="rompRecuadro tamañoromp displayFlex centrarFlex bordesNegros" id="zona2"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
+            <div class="rompRecuadro tamañoromp displayFlex centrarFlex bordesNegros" id="zona3"><p class="rompTxt">Arrastre y suelte la imagen aquí</p></div>
         </div>
      </div> 
     </section>
     <section class="sec">
-        <div class="secRomp">
+        <div class="displayFlex centrarFlex">
             <img class="imgRompe tamañoromp" id="img1" src="./assets/imagenes/Rompe3.png">
             <img class="imgRompe tamañoromp" id="img2" src="./assets/imagenes/Rompe2.png">
             <img class="imgRompe tamañoromp" id="img3" src="./assets/imagenes/Rompe1.png">
         </div>
-        <a src="./3Juego.html" class="navBut vidBut anim" id="rompBut">Reiniciar</a>    
+        <a href="#" class="botonesborde navBut vidBut anim displayFlex centrarFlex fondoAmarillo" id="rompBut">REINICIAR</a>    
     </section>    
     
     </section>
-    <footer class="footer">
+    <footer class="footer displayFlex centrarFlex">
           <img id="logoF" src="./assets/imagenes/logo.png">
           <p id="boldTxt" class="footerTxt alinearTxt">PROGRAMACIÓN<br>E<br>HISTORIA</p>
           <p class="footerTxt" id="pFooter">Sitio con fines educativos - Creado por M.Victoria Lopez</p>
